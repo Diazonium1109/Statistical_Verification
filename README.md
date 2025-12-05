@@ -23,7 +23,7 @@ The inspiration for this project stems from a scientific debate between two majo
 ### 1. `Statistical_Verification/`
 This folder contains the core technical work of the project.
 * `benford_analysis.R`: The R script used to extract leading digits, calculate frequencies, and generate comparison plots.
-* `gdp_data.csv`: The raw dataset sourced from the World Bank (1960-2023).
+* `API NY . GDP . MKTP . CD DS2 en csv v2 2463.csv`: The raw dataset sourced from the World Bank (1960-2023).
 * `Verification_Report.pdf`: The formal LaTeX report detailing the methodology, code, and mathematical conclusion.
 * `Rplot.png`: The generated visualization comparing Uzbekistan vs. Global data.
 
@@ -42,7 +42,7 @@ The analysis yielded a statistically significant distinction between the Global 
     * **Anomalous Spikes:** Unnatural peaks were observed at digits 6 and 8.
 
 ### Visualization
-*(See `Verification Code and Report/Rplot.png` for the full high-res chart)*
+*(See `Statistical_Verification/Rplot.png` for the full high-res chart)*
 
 > The stark contrast between the global control group (grey) and the target country (orange) suggests that the Uzbekistan dataset likely contains non-natural artifacts, supporting the hypothesis of manual data smoothing.
 
