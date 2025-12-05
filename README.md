@@ -58,7 +58,7 @@ The analysis yielded a statistically significant distinction between the Global 
     git clone [https://github.com/Diazonium1109/Benford-Law-Verification.git](https://github.com/Diazonium1109/Benford-Law-Verification.git)
     ```
 2.  Open `Statistical_Verification/benford_analysis.R` in RStudio.
-3.  Ensure `gdp_data.csv` is in the working directory.
+3.  Ensure `API NY . GDP . MKTP . CD DS2 en csv v2 2463.csv` is in the working directory.
 4.  Run the script to reproduce the analysis and generate the plot.
 
 ## 👤 Author
